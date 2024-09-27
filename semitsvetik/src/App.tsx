@@ -1,10 +1,11 @@
 import './App.css'
+import ButtonFlower from './components/ButtonsFlower/ButtonFlower';
 
 function App() {
 
   return (
     <>
-      <p>Semitsvetik web will be here</p>
+      <ButtonFlower />
     </>
   )
 }
