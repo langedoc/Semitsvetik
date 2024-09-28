@@ -24,3 +24,7 @@
     align-items: center;
     transform: translate(-50%, -50%) rotate(var(--rotation)) translate(230px) rotate(calc(-1 * var(--rotation)));
 }
+
+.petal:hover {
+    z-index: 2;
+}

@@ -2,7 +2,7 @@
     width: 270px;
     height: 270px;
     background-color: rgb(251, 251, 182);
-    border: none;
+    border: solid 2px red;
     border-radius: 50%;
     display: flex;
     justify-content: center;
