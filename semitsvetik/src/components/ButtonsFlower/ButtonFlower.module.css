@@ -22,7 +22,7 @@
     left: 50%;
     justify-content: center;
     align-items: center;
-    transform: translate(-50%, -50%) rotate(var(--rotation)) translate(230px) rotate(calc(-1 * var(--rotation)));
+    transform: translate(-50%, -50%) rotate(var(--rotation)) translate(20vw) rotate(calc(-1 * var(--rotation)));
 }
 
 .petal:hover {
