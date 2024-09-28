@@ -1,9 +1,13 @@
 import style from './PetalButton.module.css';
 
-export default function PetalButton() {
+interface PetalButtonProps {
+    text: string;
+}
+
+export default function PetalButton({text}: PetalButtonProps) {
     return (
         <button className={style.petalButton}>
-            <span>Нажми меня</span>
+            <span>{text}</span>
         </button>
     )
 };
