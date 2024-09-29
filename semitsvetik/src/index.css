@@ -17,7 +17,9 @@
 }
 
 html {
+  overflow: hidden;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 h1 {
