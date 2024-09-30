@@ -1,8 +1,8 @@
 [
-    { "text": "Мероприятия", "rotation": "0deg", "backgroundColor": "#ffd0d0" },
-    { "text": "Контакты", "rotation": "60deg", "backgroundColor": "#ffcaa1" },
+    { "text": "МЕРОПРИЯТИЯ", "rotation": "0deg", "backgroundColor": "#ffd0d0" },
+    { "text": "КОНТАКТЫ", "rotation": "60deg", "backgroundColor": "#ffcaa1" },
     { "text": "", "rotation": "120deg", "backgroundColor": "#fbfbb6" },
-    { "text": "Курсы испанского языка", "rotation": "180deg", "backgroundColor": "#e4ffe5" },
-    { "text": "О нас", "rotation": "240deg", "backgroundColor": "#d7eaff" },
-    { "text": "Школа Семицветика", "rotation": "300deg", "backgroundColor": "#e0ddff" }
+    { "text": "КУРСЫ ИСПАНСКОГО ЯЗЫКА", "rotation": "180deg", "backgroundColor": "#e4ffe5" },
+    { "text": "О НАС", "rotation": "240deg", "backgroundColor": "#d7eaff" },
+    { "text": "ШКОЛА СЕМИЦВЕТИКА", "rotation": "300deg", "backgroundColor": "#e0ddff" }
   ]
