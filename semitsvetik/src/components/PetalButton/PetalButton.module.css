@@ -4,14 +4,14 @@
     width: 40vh;
     height: 40vh;
     padding: 10px;
-    background-color: rgb(251, 251, 182);
+    background-color: white;
     border: 0.5px solid transparent;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.1vw;
-    font-weight: bold;
+    font-size: 2vw;
+    font-weight: 900;
     color: var(--color-text);
 }
 
@@ -26,6 +26,13 @@
     border-radius: 50%;
     background: linear-gradient(35deg, var(--color-red), var(--color-yellow), var(--color-orange), var(--color-green), var(--color-blue), var(--color-purple), var(--color-text));
     z-index: -1;
+}
+
+.petalImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 @media (max-width: 768px) {
