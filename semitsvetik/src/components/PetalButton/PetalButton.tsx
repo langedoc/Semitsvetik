@@ -1,14 +1,19 @@
 import style from './PetalButton.module.css';
 
 interface PetalButtonProps {
-    text: string;
+    text?: string;
     backgroundColor?: string;
+    imageSrc?: string;
 }
 
-export default function PetalButton({text, backgroundColor}: PetalButtonProps) {
+export default function PetalButton({text, backgroundColor, imageSrc}: PetalButtonProps) {
     return (
         <button className={style.petalButton} style={{backgroundColor}}>
-            <span>{text}</span>
+            {imageSrc ? (
+                <img src={imageSrc} alt={text} className={style.petalImg}/>
+            ) : (
+                <span>{text}</span>
+            )}
         </button>
     )
 };
