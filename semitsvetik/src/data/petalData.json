@@ -1,8 +1,37 @@
 [
-    { "text": "МЕРОПРИЯТИЯ", "rotation": "0deg", "backgroundColor": "#ffd0d0" },
-    { "text": "КОНТАКТЫ", "rotation": "60deg", "backgroundColor": "#ffcaa1" },
-    { "text": "", "rotation": "120deg", "backgroundColor": "#fbfbb6" },
-    { "text": "КУРСЫ ИСПАНСКОГО ЯЗЫКА", "rotation": "180deg", "backgroundColor": "#e4ffe5" },
-    { "text": "О НАС", "rotation": "240deg", "backgroundColor": "#d7eaff" },
-    { "text": "ШКОЛА СЕМИЦВЕТИКА", "rotation": "300deg", "backgroundColor": "#e0ddff" }
+    { 
+      "text": "МЕРОПРИЯТИЯ",
+      "rotation": "0deg",
+      "backgroundColor": "#ffd0d0",
+      "link": ""
+    },
+    { 
+      "text": "КОНТАКТЫ",
+      "rotation": "60deg",
+      "backgroundColor": "#ffcaa1",
+      "link": "/contacts"},
+    {
+      "text": "",
+      "rotation": "120deg",
+      "backgroundColor": "#fbfbb6",
+      "link": ""
+    },
+    {
+      "text": "КУРСЫ ИСПАНСКОГО ЯЗЫКА",
+      "rotation": "180deg",
+      "backgroundColor": "#e4ffe5",
+      "link": "/courses"
+    },
+    {
+      "text": "О НАС",
+      "rotation": "240deg",
+      "backgroundColor": "#d7eaff",
+      "link": "/about"
+    },
+    {
+      "text": "ШКОЛА СЕМИЦВЕТИКА",
+      "rotation": "300deg",
+      "backgroundColor": "#e0ddff",
+      "link": "/school"
+    }
   ]
