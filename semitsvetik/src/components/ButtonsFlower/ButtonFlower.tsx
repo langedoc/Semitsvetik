@@ -16,7 +16,7 @@ export default function ButtonFlower() {
                     className={style.petal}
                     style={{ '--rotation': petal.rotation} as React.CSSProperties}
                 >
-                    <PetalButton text={petal.text} backgroundColor={petal.backgroundColor}/>
+                    <PetalButton text={petal.text} backgroundColor={petal.backgroundColor} link={petal.link}/>
                 </div>
             ))}
         </div>
