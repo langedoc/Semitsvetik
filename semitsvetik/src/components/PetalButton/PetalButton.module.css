@@ -13,7 +13,7 @@
     font-size: 2vw;
     font-weight: 900;
     color: var(--color-text);
-    background-color: transparent;
+    background-color: white;
 }
 
 .petalButton::before {
