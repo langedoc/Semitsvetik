@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 5rem 200px 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--color-blue);
+    border: none;
+    border-radius: 0 300px;
+    padding: 1rem 10rem 7rem 10rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+}
+
+
