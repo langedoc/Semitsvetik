@@ -22,6 +22,9 @@ export default function Navbar() {
                     <li>
                         <Link to="/contact" className={style.link}>Контакты</Link>
                     </li>
+                    <li>
+                        <Link to="/courses" className={style.link}>Курсы испанского языка</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
