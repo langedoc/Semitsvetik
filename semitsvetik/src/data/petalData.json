@@ -3,13 +3,13 @@
       "text": "МЕРОПРИЯТИЯ",
       "rotation": "0deg",
       "backgroundColor": "#ffd0d0",
-      "link": ""
+      "link": "/events"
     },
     { 
       "text": "КОНТАКТЫ",
       "rotation": "60deg",
       "backgroundColor": "#ffcaa1",
-      "link": "/contacts"},
+      "link": "/contact"},
     {
       "text": "",
       "rotation": "120deg",
