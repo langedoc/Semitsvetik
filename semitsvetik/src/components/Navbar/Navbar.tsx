@@ -20,10 +20,13 @@ export default function Navbar() {
                         <Link to="/school" className={style.link}>Школа Семицветика</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className={style.link}>Контакты</Link>
+                        <Link to="/courses" className={style.link}>Курсы испанского языка</Link>
                     </li>
                     <li>
-                        <Link to="/courses" className={style.link}>Курсы испанского языка</Link>
+                        <Link to="/events" className={style.link}>Мероприятия</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact" className={style.link}>Контакты</Link>
                     </li>
                 </ul>
             </nav>
