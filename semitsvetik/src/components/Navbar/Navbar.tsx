@@ -11,13 +11,16 @@ export default function Navbar() {
                         <img src={logo} className={style.logo} />
                     </li>
                     <li>
-                        <Link to="/" className={style.link}>Home</Link>
+                        <Link to="/" className={style.link}>Главная</Link>
                     </li>
                     <li>
-                        <Link to="/about" className={style.link}>About</Link>
+                        <Link to="/about" className={style.link}>О нас</Link>
                     </li>
                     <li>
-                        <Link to="/school" className={style.link}>School</Link>
+                        <Link to="/school" className={style.link}>Школа Семицветика</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact" className={style.link}>Контакты</Link>
                     </li>
                 </ul>
             </nav>
