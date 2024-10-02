@@ -5,8 +5,8 @@ export default function LandingLogo() {
     return (
         <div className={style.container}>
             <div className={style.logoNameContainer}>
-                <div className="logoContainer">
-                    <img src={logo} className="logo" alt={'logo'}/>
+                <div className={style.logoContainer}>
+                    <img src={logo} className={style.logo} alt={'logo'}/>
                 </div>
                 <div className={style.name}>
                     <p>
@@ -14,15 +14,17 @@ export default function LandingLogo() {
                             СЕМИ
                         </b>
                         <br/>
-                        Цветик
+                        ЦВЕТИК
                     </p>
                 </div>
             </div>
             <div className={style.description}>
                 <p>
-                    СЕМЕЙНЫЙ ЦЕНТР
+                    <b>
+                        СЕМЕЙНЫЙ ЦЕНТР
+                    </b>
                     <br/>
-                    Русского языка и культуры
+                    русского языка и культуры
                 </p>
             </div>
         </div>
