@@ -14,12 +14,12 @@ export default function Navbar() {
 
     return (
         <header className={style.header}>
+            <div className={style.logoContainer}>
+                <img src={logo} className={style.logo} />
+            </div>
             <nav>
                 <div className={style.menuIcon}>
                     {isMenuOpen ? <IoMdCloseCircle onClick={toggleMenu}/> : <IoMdMenu onClick={toggleMenu}/>}
-                </div>
-                <div className={style.logoContainer}>
-                    <img src={logo} className={style.logo} />
                 </div>
                 <div>
                     <ul
