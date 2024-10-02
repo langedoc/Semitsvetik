@@ -27,4 +27,15 @@
     text-align: justify;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 100px 2rem 200px 2rem;
+    }
+
+    .textContainer {
+        padding: 0 2rem 4rem 2rem;
+        border-radius: 0 100px;
+    }
+}
+
 
