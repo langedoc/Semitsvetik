@@ -1,5 +1,5 @@
 import style from './LandingLogo.module.css';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/logos/logo.png';
 
 export default function LandingLogo() {
     return (
