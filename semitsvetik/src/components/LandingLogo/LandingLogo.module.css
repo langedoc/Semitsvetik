@@ -1,0 +1,103 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 20%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 40%; /* Double the size on smaller screens */
+        padding: 0.5rem;
+    }
+}
+
+.logoNameContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.logoContainer {
+    display: flex;
+    width: 8vw;
+    height: 8vw;
+}
+
+.logo {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.name {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.name p {
+    font-size: 4vw;
+    color: var(--color-logo);
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.name p b {
+    font-size: 3vw;
+    color: var(--color-logo);
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* Increase font size for smaller screens */
+@media (max-width: 768px) {
+    .name p {
+        font-size: 5vw;
+    }
+    .name p b {
+        font-size: 4vw;
+    }
+}
+
+.description {
+    grid-row: 2;
+    text-align: center;
+    width: 100%;
+}
+
+.description p {
+    font-size: 1.25vw;
+    font-family: sans-serif;
+    line-height: 1;
+    letter-spacing: 0.03rem;
+    margin: 0;
+}
+
+.description p b {
+    font-size: 1.6vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    width: 100%;
+    margin: 0;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+    .description p {
+        font-size: 1.6vw; 
+    }
+    .description p b {
+        font-size: 1.95vw; 
+    }
+}
