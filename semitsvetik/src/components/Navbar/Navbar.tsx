@@ -2,7 +2,7 @@ import style from './Navbar.module.css';
 import { useState } from 'react';
 import {Link} from 'react-router-dom';
 import { IoMdCloseCircle, IoMdMenu } from "react-icons/io";
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/logos/logo.png';
 
 export default function Navbar() {
     
