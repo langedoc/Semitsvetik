@@ -1,7 +1,7 @@
 import style from './InstaLogo.module.css';
 import instaLogo from '../../assets/logos/instaLogo.png';
 
-const instaLink="https://www.instagram.com/semitsvetik.associacio/"; // Change this to your Instagram link
+const instaLink="https://www.instagram.com/semitsvetik.associacio/";
 
 export default function InstaLogo() {
     return (
