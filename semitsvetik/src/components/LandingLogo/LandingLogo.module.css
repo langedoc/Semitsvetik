@@ -11,8 +11,9 @@
 
 @media (max-width: 768px) {
     .container {
-        width: 40%; /* Double the size on smaller screens */
+        width: 30%;
         padding: 0.5rem;
+        gap: 0.5rem;
     }
 }
 
