@@ -32,6 +32,6 @@
 
 @media (max-width: 768px) {
     .petal {
-        transform: translate(-50%, -50%) rotate(var(--rotation)) translate(30vw) rotate(calc(-1 * var(--rotation)));
+        transform: translate(-50%, -50%) rotate(var(--rotation)) translate(75%) rotate(calc(-1 * var(--rotation)));
     }
 }

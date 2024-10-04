@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <header className={style.header}>
             <div className={style.logoContainer}>
-                <img src={logo} className={style.logo} />
+                <img src={logo} className={style.logo} alt={'logo'}/>
             </div>
             <nav>
                 <div className={style.menuIcon}>
