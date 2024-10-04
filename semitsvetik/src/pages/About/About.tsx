@@ -1,9 +1,19 @@
 import style from './About.module.css';
+import image1 from '../../assets/images/about1.jpg';
+import image2 from '../../assets/images/about2.jpg';
 
 export default function About() {
     return (
         <div className={style.container}>
-            <h1>О нас</h1>
+            <div className={style.topContainer}>
+                <h1>О нас</h1>
+                <div className={style.image1}>
+                    <img src={image2} alt="О нас фото" className={style.image}/>
+                </div>
+                <div className={style.image2}>
+                    <img src={image1} alt="О нас фото" className={style.image}/>
+                </div>
+            </div>
             <div className={style.textContainer}>
                 <p>
                     <br/>
