@@ -1,7 +1,7 @@
 import style from './ButtonFlower.module.css';
 import PetalButton from '../PetalButton/PetalButton';
 import petalData from '../../data/petalData.json';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/logos/logo.png';
 
 export default function ButtonFlower() {
     return (
