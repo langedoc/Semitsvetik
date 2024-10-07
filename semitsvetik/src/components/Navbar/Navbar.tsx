@@ -1,6 +1,6 @@
 import style from './Navbar.module.css';
 import { useState } from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { IoMdCloseCircle, IoMdMenu } from "react-icons/io";
 import logo from '../../assets/logos/logo.png';
 
@@ -15,9 +15,9 @@ export default function Navbar() {
     return (
         <header className={style.header}>
             <div className={style.logoContainer}>
-                <Link to="/" className={style.logoContainer}>
+                <NavLink to="/" className={style.logoContainer}>
                     <img src={logo} className={style.logo} alt={'logo'}/>
-                </Link>
+                </NavLink>
             </div>
             <nav>
                 <div className={style.menuIcon}>
@@ -29,22 +29,52 @@ export default function Navbar() {
                         onClick={toggleMenu}
                     >
                         <li>
-                            <Link to="/" className={style.link}>Главная</Link>
+                            <NavLink
+                                to="/"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`} //Define styling for active link
+                            >
+                            Главная
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/about" className={style.link}>О нас</Link>
+                            <NavLink
+                                to="/about"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
+                            >
+                                О нас
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/school" className={style.link}>Школа Семицветика</Link>
+                            <NavLink
+                                to="/school"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
+                            >
+                                Школа Семицветика
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/courses" className={style.link}>Курсы испанского языка</Link>
+                            <NavLink
+                                to="/courses"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
+                            >
+                                Курсы испанского языка
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/events" className={style.link}>Мероприятия</Link>
+                            <NavLink
+                                to="/events"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
+                            >
+                                Мероприятия
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/contact" className={style.link}>Контакты</Link>
+                            <NavLink
+                                to="/contact"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
+                            >
+                                Контакты
+                            </NavLink>
                         </li>
                     </ul>
                 </div>            
