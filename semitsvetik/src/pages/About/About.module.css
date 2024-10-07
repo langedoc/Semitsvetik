@@ -5,7 +5,7 @@
     grid-template-rows: 35vh 1fr 40vh;
     width: 100vw;
     height: 100vh;
-    padding: 130px 0 200px 0;
+    padding: 150px 0 200px 0;
     align-items: center;
     justify-self: center;
 }
@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 85px 0 200px 0;
+        padding: 70px 0 200px 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr) 50vh;
     }
