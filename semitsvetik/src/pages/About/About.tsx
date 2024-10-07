@@ -5,14 +5,11 @@ import image2 from '../../assets/images/about2.jpg';
 export default function About() {
     return (
         <div className={style.container}>
+            <h1>О нас</h1>
             <div className={style.image1}>
                 <img src={image2} alt="О нас фото" className={style.image}/>
             </div>
-            <div className={style.image2}>
-                <img src={image1} alt="О нас фото" className={style.image}/>
-            </div>
             <div className={style.textContainer}>
-                <h1>О нас</h1>
                 <p>
                     <br/>
                     <br/>
@@ -25,6 +22,9 @@ export default function About() {
                     <br/>
                     Мы гордимся тем, что "Семицветик" стал местом, где русскоязычные семьи могут сохранять свою культуру, заводить новые знакомства и развиваться вместе.
                 </p>
+            </div>
+            <div className={style.image2}>
+                <img src={image1} alt="О нас фото" className={style.image}/>
             </div>
         </div>
     );
