@@ -11,14 +11,14 @@ interface PetalButtonProps {
 
 export default function PetalButton({text, backgroundColor, imageSrc, link}: PetalButtonProps) {
     // Define a state variable to store the dynamic size (default to '40vh')
-    const [size, setSize] = useState('40vh');
+    const [size, setSize] = useState('37vh');
 
     // Function to update the size based on window dimensions
     const updateSize = () => {
         if (window.innerWidth < window.innerHeight) {
-            setSize('40vw');
+            setSize('37vw');
         } else {
-            setSize('40vh');
+            setSize('37vh');
         }
     };
 
