@@ -48,6 +48,7 @@ li {
 .list a.active {
     background: linear-gradient(90deg, red, orange, green, blue, indigo, violet);
     background-clip: text;
+    -webkit-background-clip: text; /* Safari and WebKit browsers */
     color: transparent;
 }
 
@@ -91,6 +92,7 @@ li {
     .logoContainer {
         width: 40px;
         height: 40px;
+        z-index: 2;
     }
 
     .menuIcon {
@@ -100,10 +102,20 @@ li {
         position: absolute;
         top: 0;
         right: 1rem;
+        z-index: 2;
     }
 
     .menuOpen{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
         height: 100vh;
+        background-color: rgba(255, 255, 255, 1); /* Ensure full opacity */
+        z-index: 1;
     }    
 }
