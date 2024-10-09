@@ -2,7 +2,7 @@ import style from './CustomButton.module.css';
 
 interface CustomButtonProps {
     children?: React.ReactNode;
-    onClick: () => void;
+    onClick?: () => void;
     className?: string;
 }
 
