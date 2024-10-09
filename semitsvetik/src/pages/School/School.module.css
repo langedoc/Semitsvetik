@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 0 200px 0;
+    gap: 2rem;
+}
+
+.container h1 {
+    padding-left: 5vw;
+    font-size: 6vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--color-purple);
+    border-radius: 0 300px;
+    padding: 2rem 15% 8rem 15%;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+}
+
+.schoolClases {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.classData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+    background-color: var(--color-text);
+    box-sizing: border-box;
+    width: 280px;
+    height: 250px;
+    padding-top: 70px;
+}
+
+.classData h3 { 
+    color: white;
+}
+
+.left {
+    border-radius: 0 50%;
+}
+
+.right {
+    border-radius: 50% 0;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+}
