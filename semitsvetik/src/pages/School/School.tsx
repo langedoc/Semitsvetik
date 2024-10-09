@@ -32,8 +32,8 @@ export default function School() {
                 </div>
                 <p><b>Занятия проходят в небольших группах не больше 8 человек.</b></p>
                 <p>Учиться в Школе Семицветика - это также значит быть частью некоммерческого культурного проекта, призванного создавать пространство для общения, дружбы и роста.</p>
-                <a href="mailto:semytsvetyk@gmail.com" style={{ textDecoration: 'none' }}>
-                    <CustomButton>ЗАПИСАТЬСЯ</CustomButton>
+                <a href="mailto:semytsvetyk@gmail.com" style={{ textDecoration: 'none', margin: '1.5rem 0' }}>
+                    <CustomButton>ЗАПИСАТЬСЯ НА ЗАНЯТИЯ</CustomButton>
                 </a>
             </div>
         </div>
