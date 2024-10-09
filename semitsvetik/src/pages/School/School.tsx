@@ -1,5 +1,5 @@
 import style from './School.module.css';
-
+import CustomButton from '../../components/CustomButton/CustomButton';
 export default function School() {
     return (
         <div className={style.container}>
@@ -32,7 +32,9 @@ export default function School() {
                 </div>
                 <p><b>Занятия проходят в небольших группах не больше 8 человек.</b></p>
                 <p>Учиться в Школе Семицветика - это также значит быть частью некоммерческого культурного проекта, призванного создавать пространство для общения, дружбы и роста.</p>
-                <p>Для записи на занятия и получения дополнительной информации пишите на почту: <a href="mailto:semytsvetyk@gmail.com">semytsvetyk@gmail.com</a></p>
+                <a href="mailto:semytsvetyk@gmail.com" style={{ textDecoration: 'none' }}>
+                    <CustomButton>ЗАПИСАТЬСЯ</CustomButton>
+                </a>
             </div>
         </div>
     );
