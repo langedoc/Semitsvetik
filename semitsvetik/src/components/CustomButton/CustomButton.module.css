@@ -1,0 +1,14 @@
+@import '../../vars.css';
+
+.customButton {
+    background-color: var(--color-text);
+    border: none;
+    color: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple));
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
