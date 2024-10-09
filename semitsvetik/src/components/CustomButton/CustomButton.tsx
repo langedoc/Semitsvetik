@@ -8,6 +8,8 @@ interface CustomButtonProps {
 
 export default function CustomButton({ children, onClick }: CustomButtonProps) {
     return (
-        <button className={style.customButton} onClick={onClick}>{children}</button>
+        <div className={style.container}>
+            <button className={style.customButton} onClick={onClick}>{children}</button>
+        </div>
     );
 }
