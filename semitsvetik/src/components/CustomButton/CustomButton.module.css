@@ -38,3 +38,9 @@
     color: var(--color-text);
     border:solid 2px var(--color-text);
 }
+
+@media (max-width: 768px) {
+    .customButton {
+        font-size: 12px;
+    }
+}
