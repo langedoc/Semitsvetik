@@ -4,12 +4,34 @@
     width: 100vw;
     height: 100vh;
     padding: 100px 0 200px 0;
+    gap: 1rem;
+}
+
+.topInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5vw;
+    padding-right: 10vw;
     gap: 2rem;
 }
 
-.container h1 {
-    padding-left: 5vw;
-    font-size: 6vw;
+.schedule {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 20px;
+    border-radius: 0 100px;
+    background: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow));
+    width: 450px;
+    height: 160px;
+    padding: 25px 50px;
+}
+
+.schedule p {
+    font-weight: 600;
+    text-align: end;
+    line-height: 1;
 }
 
 .content {
@@ -41,8 +63,8 @@
     color: white;
     background-color: var(--color-text);
     box-sizing: border-box;
-    width: 280px;
-    height: 250px;
+    width: 300px;
+    height: 230px;
     padding-top: 70px;
 }
 
