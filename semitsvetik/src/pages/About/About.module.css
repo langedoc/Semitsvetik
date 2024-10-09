@@ -67,7 +67,6 @@
     .container h1 {
         grid-column: 1;
         grid-row: 2;
-        font-size: 10vw;
     }
     
     .image1 {
