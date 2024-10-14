@@ -1,6 +1,61 @@
-container {
+.container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 0 200px 0;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.topInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    align-items: center;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple));
+    }
+    20% {
+        background: linear-gradient(45deg, var(--color-purple), var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow));
+    }
+    40% {
+        background: linear-gradient(45deg, var(--color-yellow), var(--color-purple), var(--color-blue), var(--color-red), var(--color-green));
+    }
+    60% {
+        background: linear-gradient(45deg, var(--color-green), var(--color-yellow), var(--color-purple), var(--color-blue), var(--color-red));
+    }
+    80% {
+        background: linear-gradient(45deg, var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple), var(--color-blue));
+    }
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 10px;
+    border-radius: 0 100px;
+    animation: gradientAnimation 4s ease infinite;
+    background: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple));
+    width: 450px;
+    height: 160px;
+    padding: 25px 50px;
+}
+
+.schedule p {
+    font-weight: 500;
+    text-align: end;
+    line-height: 1;
+}
+
+.schedule p b {
+    font-weight: 700;
+    font-size: 1.3rem;
+
 }
