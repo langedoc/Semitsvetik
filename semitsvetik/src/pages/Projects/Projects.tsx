@@ -1,4 +1,6 @@
 import style from './Projects.module.css';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import projects from '../../data/projectsData.json';
 
 export default function Projects() {
     return (
@@ -7,7 +9,9 @@ export default function Projects() {
                 <h1>Культурные проекты</h1>
             </div>
             <div className={style.content}>
-                <h2>Наши проекты</h2>
+                {projects.map((project, index) =>
+                    <ProjectCard key={index} project={project}/>
+                )}
             </div>
         </div>
     );

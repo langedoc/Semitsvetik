@@ -1,10 +1,13 @@
 import style from './ProjectCard.module.css';
+import { ProjectProps } from '../../types/projects.types';
 
-export default function ProjectCard () {
+export default function ProjectCard ({project}: {project: ProjectProps}) {
     return (
         <div className={style.container}>
-            <h2>Project title</h2>
-            <img src="https://via.placeholder.com/150" alt="Project title" />
+            <img src={project.image} alt={project.title} />
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+
         </div>
     );
 }
