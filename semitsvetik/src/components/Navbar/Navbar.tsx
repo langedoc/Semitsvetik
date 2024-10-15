@@ -30,14 +30,6 @@ export default function Navbar() {
                     >
                         <li>
                             <NavLink
-                                to="/"
-                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`} //Define styling for active link
-                            >
-                            Главная
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
                                 to="/about"
                                 className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
                             >
@@ -62,10 +54,18 @@ export default function Navbar() {
                         </li>
                         <li>
                             <NavLink
+                                to="/projects"
+                                className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
+                            >
+                                Культурные проекты
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
                                 to="/events"
                                 className={({ isActive }) => `${style.link} ${isActive ? style.active : ''}`}
                             >
-                                Мероприятия
+                                Календарь мероприятий
                             </NavLink>
                         </li>
                         <li>
