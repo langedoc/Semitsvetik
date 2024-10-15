@@ -1,6 +1,6 @@
 import style from './About.module.css';
-import image1 from '../../assets/images/about1.jpg';
-import image2 from '../../assets/images/about2.jpg';
+import image1 from '../../assets/images/about/about1.jpg';
+import image2 from '../../assets/images/about/about2.jpg';
 
 export default function About() {
     return (
