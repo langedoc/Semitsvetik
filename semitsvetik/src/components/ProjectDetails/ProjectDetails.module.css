@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.container h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.container a {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
