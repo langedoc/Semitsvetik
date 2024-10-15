@@ -10,7 +10,6 @@
     background-color: rgba(251, 251, 251, 0.95);
     display: flex;
     justify-content: center;
-    align-items: center;
     z-index: 10;
 }
 
@@ -18,7 +17,8 @@
     background-color: white;
     padding: 1rem;
     max-width: 80%;
-    min-height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
     border: 2px solid var(--color-text);
     border-radius: 10px;
     position: relative;
