@@ -11,12 +11,12 @@
     },
     {
         "title": "ART IN HEART",
-        "imageSrc": "",
+        "imageSrc": "projects/art_in_heart.png",
         "description": "Творческая лаборатория для ПОДРОСТКОВ"
     },
     {
         "title": "ПРАЗДНИКИ",
-        "imageSrc": "",
+        "imageSrc": "projects/celebrations.png",
         "description": "Традиционные праздники для детей и взрослых."
     }
 ]
