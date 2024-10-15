@@ -7,6 +7,7 @@ import School from './pages/School/School';
 import Contact from './pages/Contact/Contact';
 import Courses from './pages/Courses/Courses';
 import Events from './pages/Events/Events';
+import Projects from './pages/Projects/Projects';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,8 @@ const router = createBrowserRouter([
       {path: '/school', element: <School/>},
       {path: '/contact', element: <Contact/>},
       {path: '/courses', element: <Courses/>},
-      {path: '/events', element: <Events/>}
+      {path: '/events', element: <Events/>},
+      {path: '/projects', element: <Projects/>}
     ],
   }
 ]);
