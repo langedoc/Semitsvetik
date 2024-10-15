@@ -1,4 +1,4 @@
-export interface EventProps {
+export interface ProjectProps {
     title: string;
     image?: string;
 }

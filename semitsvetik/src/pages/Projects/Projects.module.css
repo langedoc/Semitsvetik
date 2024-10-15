@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 0 200px 0;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.topInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--color-yellow);
+    border-radius: 0 300px;
+    padding: 2rem 15%;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+}
