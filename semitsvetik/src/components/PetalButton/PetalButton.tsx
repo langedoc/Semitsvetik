@@ -1,13 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import style from './PetalButton.module.css';
-
-interface PetalButtonProps {
-    text?: string;
-    backgroundColor?: string;
-    imageSrc?: string;
-    link?: string;
-}
+import { PetalButtonProps } from '../../types/button.types';
 
 export default function PetalButton({text, backgroundColor, imageSrc, link}: PetalButtonProps) {
     // Define a state variable to store the dynamic size (default to '40vh')

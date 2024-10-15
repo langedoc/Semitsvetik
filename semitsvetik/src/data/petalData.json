@@ -1,6 +1,6 @@
 [
     { 
-      "text": "МЕРОПРИЯТИЯ",
+      "text": "КАЛЕНДАРЬ МЕРОПРИЯТИЙ",
       "rotation": "0deg",
       "backgroundColor": "#ffd0d0",
       "link": "/events"
@@ -11,10 +11,10 @@
       "backgroundColor": "#ffcaa1",
       "link": "/contact"},
     {
-      "text": "",
+      "text": "КУЛЬТУРНЫЕ ПРОЕКТЫ",
       "rotation": "120deg",
       "backgroundColor": "#fbfbb6",
-      "link": ""
+      "link": "/projects"
     },
     {
       "text": "КУРСЫ ИСПАНСКОГО ЯЗЫКА",
