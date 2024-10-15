@@ -29,7 +29,7 @@ nav {
 
 .list {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
