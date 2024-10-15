@@ -1,13 +1,17 @@
 import style from './ProjectCard.module.css';
 import { ProjectProps } from '../../types/projects.types';
+import CustomButton from '../CustomButton/CustomButton';
+import { getImageUrl } from '../../utils/dynamicImgLoader';
 
 export default function ProjectCard ({project}: {project: ProjectProps}) {
     return (
         <div className={style.container}>
-            <img src={project.image} alt={project.title} />
+            <div className={style.imgContainer}>
+                <img src={getImageUrl(project.imageSrc)} alt={project.title} />
+            </div>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-
+            <CustomButton children={"Подробнее"} className={"customButton"}/>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 export interface ProjectProps {
     title: string;
-    image?: string;
+    imageSrc?: string;
     description?: string;
 }

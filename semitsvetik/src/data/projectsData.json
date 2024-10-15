@@ -1,22 +1,22 @@
 [
     {
         "title": "КИНОЦВЕТИК",
-        "image": "",
+        "imageSrc": "projects/kinotsvetik.png",
         "description": "Семейные киносеансы на русском языке."
     },
     {
         "title": "КНИГОЦВЕТИК",
-        "image": "",
+        "imageSrc": "projects/knigotsvetik.png",
         "description": "Читательский клуб для взрослых на русском языке."
     },
     {
         "title": "ART IN HEART",
-        "image": "",
+        "imageSrc": "",
         "description": "Творческая лаборатория для ПОДРОСТКОВ"
     },
     {
         "title": "ПРАЗДНИКИ",
-        "image": "",
+        "imageSrc": "",
         "description": "Традиционные праздники для детей и взрослых."
     }
 ]
