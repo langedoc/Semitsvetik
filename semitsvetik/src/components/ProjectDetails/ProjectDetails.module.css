@@ -9,9 +9,13 @@
 }
 
 .container h2 {
-    font-size: 3rem;
     text-align: center;
-    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.container h3 {
+    text-align: center;
+    font-weight: 600;
 }
 
 .container p {
@@ -21,8 +25,6 @@
 
 .container a {
     display: inline-flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
     align-items: center;
     text-decoration: none;
     color: #0066cc;
@@ -34,7 +36,8 @@
     text-decoration: underline;
 }
 
-.icon {
-    margin-right: 8px;
-    font-size: 1.2rem;
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
