@@ -19,18 +19,67 @@
 
 .content {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
+    flex-direction: row;
+    align-items: space-between;
+    gap: 4rem;
     background-color: var(--color-orange);
-    border-radius: 0 300px;
-    padding: 2rem 15%;
+    border-radius: 0 200px;
+    padding: 2rem 10%;
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
 }
 
-@media (max-width: 768px) {
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contactInfo p {
+    line-height: 1.5;
+}
+
+.contactInfo a {
+    color: rgb(64, 64, 151);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.mapsContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mapsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.mapInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    gap: 1rem;
+}
+
+.mapInfo p {
+    line-height: 1.5;
+}
+
+.map {
+    width: 600;
+    height: 450;
+    border:0;
+}
+
+@media (max-width: 991px) {
     .container {
         padding: 80px 0;
         align-items: center;
@@ -40,13 +89,24 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        gap: 20px;
+        gap: 1rem;
         padding-left: 3vw;
         padding-right: 3vw;
     }
 
     .content {
+        flex-direction: column;
         padding: 1.5rem 10%;
         border-radius: 0 100px;
+        gap: 2rem;
+    }
+
+    .mapsContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .mapInfo {
+        gap: 0.5rem;
     }
 }
