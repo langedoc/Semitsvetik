@@ -3,12 +3,12 @@ import style from './Projects.module.css';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import projects from '../../data/projectsData.json';
 import ProjectOverlay from '../../components/ProjectOverlay/ProjectOverlay';
-
+import { ProjectProps } from '../../types/projects.types';
 
 export default function Projects() {
-    const [selectedProject, setSelectedProject] = useState(null);
+    const [selectedProject, setSelectedProject] = useState<ProjectProps | null>(null);
 
-    const handleClick = (project) => {
+    const handleClick = (project: ProjectProps) => {
         setSelectedProject(project);
     };
 

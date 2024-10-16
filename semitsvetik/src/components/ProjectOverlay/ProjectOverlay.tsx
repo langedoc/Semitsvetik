@@ -5,8 +5,8 @@ import ProjectDetails from '../ProjectDetails/ProjectDetails';
 export default function ProjectOverlay({project, onClose}: {project: ProjectProps, onClose: () => void}) {
     return (
         <div className={style.container}>
+            <button className={style.closeButton} onClick={onClose}>X</button>
             <div className={style.overlay}>
-                <button className={style.closeButton} onClick={onClose}>X</button>
                 <ProjectDetails project={project}/>
             </div>
         </div>
