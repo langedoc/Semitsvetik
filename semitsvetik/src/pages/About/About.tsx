@@ -6,14 +6,14 @@ import Footer from '../../components/Footer/Footer';
 export default function About() {
     return (
         <div className={style.container}>
-            <h1>О нас</h1>
-            <div className={style.image1}>
-                <img src={image2} alt="О нас фото" className={style.image}/>
+            <div className={style.topInfo}>
+                <h1>О нас</h1>
+                <div className={style.image1}>
+                    <img src={image2} alt="О нас фото" className={style.image}/>
+                </div>
             </div>
-            <div className={style.textContainer}>
+            <div className={style.content}>
                 <p>
-                    <br/>
-                    <br/>
                     Ассоциация русскоязычных семей <b>"Семицветик"</b> была основана в 2018 году группой активных и инициативных мам с целью создания русскоязычной среды для своих детей. Мы стремимся сохранить и развивать родной язык в русскоязычных семьях, создавая пространство для общения, обучения и культурного обмена.
                     Ассоциация "Семицветик" регулярно проводит разнообразные <b>мероприятия</b>, которые объединяют семьи и помогают детям ближе познакомиться с русской культурой и традициями. Мы отмечаем такие важные праздники, как Новый год, Масленица, 8 марта и Пасха, создавая теплую и дружескую атмосферу для наших участников.
                     <br/>
@@ -24,8 +24,10 @@ export default function About() {
                     Мы гордимся тем, что "Семицветик" стал местом, где русскоязычные семьи могут сохранять свою культуру, заводить новые знакомства и развиваться вместе.
                 </p>
             </div>
-            <div className={style.image2}>
-                <img src={image1} alt="О нас фото" className={style.image}/>
+            <div>
+                <div className={style.image2}>
+                    <img src={image1} alt="О нас фото" className={style.image}/>
+                </div>
             </div>
             <Footer />
         </div>
