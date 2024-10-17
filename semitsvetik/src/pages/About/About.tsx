@@ -1,7 +1,6 @@
 import style from './About.module.css';
 import image1 from '../../assets/images/about/about1.jpg';
 import image2 from '../../assets/images/about/about2.jpg';
-import Footer from '../../components/Footer/Footer';
 
 export default function About() {
     return (
@@ -27,7 +26,6 @@ export default function About() {
             <div className={style.image2}>
                 <img src={image1} alt="О нас фото" className={style.image}/>
             </div>
-            <Footer />
         </div>
     );
 };
