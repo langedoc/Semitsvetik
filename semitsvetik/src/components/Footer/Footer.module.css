@@ -1,0 +1,95 @@
+@import '../../vars.css';
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding: 10px 5% 20px;
+    color: var(--color-footer);
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: -1.5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 2px solid transparent;
+    background: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple));
+    z-index: -1;
+}
+
+.container p {
+    font-family: sans-serif;
+    color: var(--color-footer);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+.name p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-footer);
+}
+
+.name p b {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--color-footer);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts p {
+    font-size: 16px;
+    color: var(--color-footer);
+}
+
+.contactItems {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 23px;
+    fill: var(--color-footer);;
+}
+
+.icon:hover {
+    font-size: 30px;
+    fill: var(--color-text);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.copyright p {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1;
+}

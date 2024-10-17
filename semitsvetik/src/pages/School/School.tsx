@@ -1,5 +1,7 @@
 import style from './School.module.css';
 import CustomButton from '../../components/CustomButton/CustomButton';
+import Footer from '../../components/Footer/Footer';
+
 export default function School() {
     return (
         <div className={style.container}>
@@ -36,6 +38,7 @@ export default function School() {
                     <CustomButton>ЗАПИСАТЬСЯ НА ЗАНЯТИЯ</CustomButton>
                 </a>
             </div>
+            <Footer />
         </div>
     );
 };

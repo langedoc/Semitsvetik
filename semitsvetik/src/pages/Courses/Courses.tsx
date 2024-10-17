@@ -1,5 +1,6 @@
 import style from './Courses.module.css';
 import CustomButton from '../../components/CustomButton/CustomButton';
+import Footer from '../../components/Footer/Footer';
 
 export default function Courses() {
     return (
@@ -37,6 +38,7 @@ export default function Courses() {
                     <CustomButton>ЗАПИСАТЬСЯ НА ЗАНЯТИЯ</CustomButton>
                 </a>
             </div>
+            <Footer />
         </div>
     );
 };
