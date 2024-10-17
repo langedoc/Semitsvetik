@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-height: 100vh;
+    padding: 100px 0 200px 0;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.topInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    background-color: var(--color-yellow);
+    border-radius: 0 200px;
+    padding: 2rem 10%;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        border-radius: 0 100px;
+        padding: 1.5rem 5%;
+    }
+}
