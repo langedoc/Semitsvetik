@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: -1.5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 2px solid transparent;
+    background: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple));
+    z-index: -1;
+}
