@@ -4,6 +4,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import projects from '../../data/projectsData.json';
 import ProjectOverlay from '../../components/ProjectOverlay/ProjectOverlay';
 import { ProjectProps } from '../../types/projects.types';
+import Footer from '../../components/Footer/Footer';
 
 export default function Projects() {
     const [selectedProject, setSelectedProject] = useState<ProjectProps | null>(null);
@@ -37,6 +38,7 @@ export default function Projects() {
                     onClose={handleOverlayClose}
                 />
             )}
+            <Footer />
         </div>
     );
 };

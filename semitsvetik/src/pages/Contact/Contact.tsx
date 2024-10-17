@@ -4,7 +4,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
 import { BiLogoTelegram } from "react-icons/bi";
 import contacts from '../../data/contactData.json';
-
+import Footer from '../../components/Footer/Footer';
 
 export default function Contact() {
     const contact = contacts[0];
@@ -47,6 +47,7 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
