@@ -41,7 +41,7 @@
     justify-items: center;
     gap: 20px;
     border-radius: 0 100px;
-    animation: gradientAnimation 4s ease infinite;
+    animation: gradientAnimation 10s ease infinite;
     background: linear-gradient(45deg, var(--color-blue), var(--color-red), var(--color-green), var(--color-yellow), var(--color-purple));
     width: 450px;
     height: 160px;
