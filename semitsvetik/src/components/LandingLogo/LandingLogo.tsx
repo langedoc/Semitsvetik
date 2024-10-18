@@ -18,15 +18,6 @@ export default function LandingLogo() {
                     </p>
                 </div>
             </div>
-            <div className={style.description}>
-                <p>
-                    <b>
-                        СЕМЕЙНЫЙ ЦЕНТР
-                    </b>
-                    <br/>
-                    русского языка и культуры
-                </p>
-            </div>
         </div>
     );
 };

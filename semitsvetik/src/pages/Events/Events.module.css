@@ -37,6 +37,28 @@ iframe {
     height: 600px;
 }
 
+.labels {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+}
+
+#cinema {
+    font-size: 30px;
+    fill: #b39edb;
+}
+
+#celeb {
+    font-size: 30px;
+    fill: #ad1458;
+}
+
+#book {
+    font-size: 30px;
+    fill: #009688;
+}
+
 @media screen and (max-width: 768px) {
     .content {
         border-radius: 0 100px;
@@ -46,5 +68,9 @@ iframe {
     iframe {
         border-width: 0;
         width: 100%;
+    }
+
+    .labels {
+        gap: 0rem;
     }
 }
