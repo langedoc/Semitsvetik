@@ -68,37 +68,3 @@
         font-size: 4vw;
     }
 }
-
-.description {
-    grid-row: 2;
-    text-align: center;
-    width: 100%;
-}
-
-.description p {
-    font-size: 1.25vw;
-    font-family: sans-serif;
-    line-height: 1;
-    letter-spacing: 0.03rem;
-    margin: 0;
-}
-
-.description p b {
-    font-size: 1.6vw;
-    font-family: sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-    line-height: 1;
-    width: 100%;
-    margin: 0;
-}
-
-/* Adjust font size for smaller screens */
-@media (max-width: 768px) {
-    .description p {
-        font-size: 1.6vw; 
-    }
-    .description p b {
-        font-size: 1.95vw; 
-    }
-}
