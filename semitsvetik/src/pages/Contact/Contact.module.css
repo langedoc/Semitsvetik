@@ -73,9 +73,10 @@
     line-height: 1.5;
 }
 
-.map {
-    width: 600;
-    height: 450;
+iframe {
+    width: 100%;
+    height: auto;
+    border-width: 0;
     border:0;
 }
 
