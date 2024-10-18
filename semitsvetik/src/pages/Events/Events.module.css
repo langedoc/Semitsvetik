@@ -44,6 +44,11 @@ iframe {
     width: 100%;
 }
 
+.label {
+    display: flex;
+    flex-direction: row;
+}
+
 #cinema {
     font-size: 30px;
     fill: #b39edb;
@@ -71,6 +76,7 @@ iframe {
     }
 
     .labels {
+        flex-direction: column;
         gap: 0rem;
     }
 }
