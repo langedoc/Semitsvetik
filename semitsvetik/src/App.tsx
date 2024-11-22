@@ -12,9 +12,12 @@ import Projects from './pages/Projects/Projects';
 const router = createBrowserRouter([
   {
     path: '/',
+    element: <Home />
+  },
+  {
+    path: '/',
     element: <RootLayout />,
     children: [
-      {path: '', element: <Home/>},
       {path: 'about', element: <About/>},
       {path: 'school', element: <School/>},
       {path: 'contact', element: <Contact/>},
