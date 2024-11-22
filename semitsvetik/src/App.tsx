@@ -12,18 +12,19 @@ import Projects from './pages/Projects/Projects';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Home />,
+    index: true
   },
   {
     path: '/',
     element: <RootLayout />,
     children: [
-      {path: 'about', element: <About/>},
-      {path: 'school', element: <School/>},
-      {path: 'contact', element: <Contact/>},
-      {path: 'courses', element: <Courses/>},
-      {path: 'events', element: <Events/>},
-      {path: 'projects', element: <Projects/>}
+      {path: '/about', element: <About/>},
+      {path: '/school', element: <School/>},
+      {path: '/contact', element: <Contact/>},
+      {path: '/courses', element: <Courses/>},
+      {path: '/events', element: <Events/>},
+      {path: '/projects', element: <Projects/>}
     ],
   }
 ]);
