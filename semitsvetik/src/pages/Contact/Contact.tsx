@@ -17,7 +17,7 @@ export default function Contact() {
             <div className={style.content}>
                 <div className={style.contactInfo}>
                     <h3>Как с нами связаться</h3>
-                    <p> <MdEmail /> По электронной почте: <a href={contact.emailLink}>semytsvetyk@gmail.com</a></p>
+                    <p> <MdEmail /> По электронной почте: <a href={contact.emailLink}>info@semitsvetik.org</a></p>
                     <p><IoLogoWhatsapp /> Наша группа в WhatsApp: <a href={contact.whatsappLink}>присоединиться</a></p>
                     <p><RiInstagramFill /> Мы в Instagram: <a href={contact.instaLink}>@semitsvetik.associacio</a></p>
                     <p><BiLogoTelegram /> Читательский клуб <b>Книгоцветик</b> в Telegram: <a href={contact.telegramLink}>присоединиться</a></p>
