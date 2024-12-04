@@ -38,9 +38,9 @@ export default function Courses() {
                 <div className={style.contact}>
                     <img src={AnastasiaFoto} alt='фотография Анастаси' className={style.contact_foto} />
                     <div className={style.contact_info}>
-                        <p>Для дополнительной информации и записи вы можете связаться с Анастасией.</p>
+                        <p>Для дополнительной информации и записи вы можете связаться с Анастасией</p>
                         <a href="https://t.me/+_2kS4YRNZUMxMmQ8" style={{ textDecoration: 'none', margin: '1.5rem 0' }}>
-                            <CustomButton>НАПИСАТЬ В ТЕЛЕГРАМ</CustomButton>
+                            <CustomButton>В ТЕЛЕГРАМ</CustomButton>
                         </a>
                     </div>
                 </div>
