@@ -1,6 +1,7 @@
 import style from './Courses.module.css';
 import CustomButton from '../../components/CustomButton/CustomButton';
 import Footer from '../../components/Footer/Footer';
+import AnastasiaFoto from '../../assets/images/about/Anastasia.png';
 
 export default function Courses() {
     return (
@@ -34,9 +35,15 @@ export default function Courses() {
                         </ul>
                     </section>
                 </div>
-                <a href="mailto:semytsvetyk@gmail.com" style={{ textDecoration: 'none', margin: '1.5rem 0' }}>
-                    <CustomButton>ЗАПИСАТЬСЯ НА ЗАНЯТИЯ</CustomButton>
-                </a>
+                <div className={style.contact}>
+                    <img src={AnastasiaFoto} alt='фотография Анастаси' className={style.contact_foto} />
+                    <div className={style.contact_info}>
+                        <p>Для дополнительной информации и записи вы можете связаться с Анастасией.</p>
+                        <a href="https://wa.me/34697896439" style={{ textDecoration: 'none', margin: '1.5rem 0' }}>
+                            <CustomButton>НАПИСАТЬ В WhatsApp</CustomButton>
+                        </a>
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>
