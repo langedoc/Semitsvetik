@@ -39,8 +39,8 @@ export default function Courses() {
                     <img src={AnastasiaFoto} alt='фотография Анастаси' className={style.contact_foto} />
                     <div className={style.contact_info}>
                         <p>Для дополнительной информации и записи вы можете связаться с Анастасией.</p>
-                        <a href="https://wa.me/34697896439" style={{ textDecoration: 'none', margin: '1.5rem 0' }}>
-                            <CustomButton>НАПИСАТЬ В WhatsApp</CustomButton>
+                        <a href="https://t.me/+_2kS4YRNZUMxMmQ8" style={{ textDecoration: 'none', margin: '1.5rem 0' }}>
+                            <CustomButton>НАПИСАТЬ В ТЕЛЕГРАМ</CustomButton>
                         </a>
                     </div>
                 </div>
